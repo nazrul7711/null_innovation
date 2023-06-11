@@ -1,0 +1,8 @@
+.item{
+  display: flex; 
+  align-items: center; 
+}
+.item button{
+  width: 150px;
+  height: 30px;
+}

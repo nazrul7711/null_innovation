@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 60vw;
+  background-color: #e893cf;
+  padding: 15px;
+  margin: 0 auto;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.task{
+  height: 100px;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  /* background-color: blueviolet; */
+}
+.task button{
+  margin-top: 15px;
+  background-color: aquamarine;
+}
+.container input,
+button {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  width: 80%;
+  margin: 0 auto;
+}
+.container button {
+  cursor: pointer;
+  background-color: #f6ffa6;
+}
+.container table {
+  margin-top: 20px;
+  padding: 0px 20px;
+}
+.formEle {
+  width: 40%;
+  background-color: aliceblue;
+}
+.header {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-evenly;
+  background-color: #f3bcc8;
+  padding: 5px 50px;
+}
+.header h1 {
+  color: #3f3f3f;
+  flex: 2;
+}
+.header button {
+  background-color: #f6ffa6;
+  color: #3f3f3f;
+  width: 100px;
+  cursor: pointer;
+}
